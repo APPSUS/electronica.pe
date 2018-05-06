@@ -1,0 +1,335 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>TINDER </title>
+
+		<meta charset="utf-8" />
+		<meta name="description" content="EL MEJOR ALBUM DEL GENERO ELECTRONICA,LAS MEJORES PISTAS Y SINGLE.">
+		<<meta name="author" content="MAYCOL NAY MO_28 (iMOC)">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/audioplayer.css" />
+		<link rel="stylesheet" href="assets/css/reset.css" />
+
+<link rel="stylesheet" type="text/css" href="css/reproductor.css">
+
+		<script>
+			/*
+				VIEWPORT BUG FIX
+				iOS viewport scaling bug fix, by @mathias, @cheeaun and @jdalton
+			*/
+			(function(doc){var addEvent='addEventListener',type='gesturestart',qsa='querySelectorAll',scales=[1,1],meta=qsa in doc?doc[qsa]('meta[name=viewport]'):[];function fix(){meta.content='width=device-width,minimum-scale='+scales[0]+',maximum-scale='+scales[1];doc.removeEventListener(type,fix,true);}if((meta=meta[meta.length-1])&&addEvent in doc){fix();scales=[.25,1.6];doc[addEvent](type,fix,true);}}(document));
+		</script>
+
+
+	</head>
+
+
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+				
+
+			
+
+
+
+				<!-- Header -->
+					<header id="header">
+						
+						<div class="inner">
+
+							<!-- Logo -->
+							<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">TINDER</span>
+								</a>
+								
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+							
+
+						</div>
+
+
+						<section>
+								<h2></h2>
+								<center>
+								<ul class="icons">
+									<li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									
+								</ul></center>
+							</section>
+
+
+
+
+
+
+
+
+
+
+
+
+					</header>
+
+
+
+
+
+
+
+
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">INICIO</a></li>
+							<li><a href="">CUMBIA</a></li>
+							<li><a href="">ESTUDIAR</a></li>
+							<li><a href="">DEPORTE</a></li>
+							<li><a href="">POP</a></li>
+						</ul>
+					</nav>
+					<hr>
+			
+
+
+					<!--
+
+			
+
+
+<center>
+
+<form action=" method="get" accept-charset="utf-8">
+
+
+		<div id="wrapper">
+			<button type="">1</button>
+			<button type="">CORAZON SERRANO / CERVEZA</button>
+			<audio   preload="auto" controls >
+				
+				<source src="audio/BlueDucks_FourFlossFiveSix.mp3">
+				<source src="audio/BlueDucks_FourFlossFiveSix.ogg">
+				<source src="audio/BlueDucks_FourFlossFiveSix.wav">
+			</audio>
+
+	
+			<script src="js/jquery.js"></script>
+			<script src="js/audioplayer.js"></script>
+			<script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
+
+			
+		<button type="">descargar</button>
+		</div>
+
+	</form>
+</center>
+<hr>
+
+
+
+			
+<center>
+
+<form action=" method="get" accept-charset="utf-8">
+
+
+		<div id="wrapper">
+			<button type="">2</button>
+			<button type="">CORAZON SERRANO / CERVEZA</button>
+			<audio   preload="auto" controls >
+				
+				<source src="audio/BlueDucks_FourFlossFiveSix.mp3">
+				<source src="audio/BlueDucks_FourFlossFiveSix.ogg">
+				<source src="audio/BlueDucks_FourFlossFiveSix.wav">
+			</audio>
+
+	
+			<script src="js/jquery.js"></script>
+			<script src="js/audioplayer.js"></script>
+			<script>$( function() { $( 'audio' ).audioPlayer(); } );</script>
+
+			
+		<button type="">descargar</button>
+		</div>
+
+	</form>
+</center>
+<hr>
+
+
+
+
+-->
+
+
+
+<div id="divContenedor">
+			<div id="divReproductor">
+				<div id="divInfo">
+					<div id="divLogo">
+						<img src="img/logo.png" align="left" width="200px" height="250px">
+					</div>
+					<div id="divInfoCancion">
+						<label id="lblCancion"><strong>NOMBRE: </strong><span>-</span></label>
+						<label id="lblArtista"><strong>ARTISTA: </strong><span>-</span></label>
+						<label id="lblDuracion"><strong>Duraci&oacute;n: </strong><span>-</span></label>
+						<label id="lblEstado"><strong>TIEMPO  : </strong><span>-</span></label>
+					</div>
+					<div style="clear: both"></div>
+				</div>
+				<div id="divControles">
+					<input type="button" id="btnReproducir" title="Reproducir">
+					<input type="button" id="btnPausar" title="Pausar/Continuar">
+					<input type="button" id="btnAnterior" title="Anterior">
+					<input type="button" id="btnSiguiente" title="Siguiente">
+					<!--
+					<input type="button" id="btnSubirVolumen" title="Subir volumen">
+					<input type="button" id="btnBajarVolumen" title="Bajar volumen">
+				-->
+					<input type="button" id="btnSilencio" title="Poner/Quitar silencio">
+					<input type="button" id="btnRepetir" title="Repetir la lista al finalizar">
+				</div>
+				<div id="divProgreso">
+					<div id="divBarra"></div>
+				</div>
+				<div id="divLista">
+					<ol id="olCanciones">
+					
+						
+						
+
+						<li rel="audio/moldo/coming home-tiesto mesto.mp3">
+							<strong>1) Coming Home</strong>
+							<em>Tiesto Mesto</em>
+						</li>
+
+						<li rel="audio/moldo/coffee please-jay hardway.mp3">
+							<strong>2) Coffee Please</strong>
+							<em>Jay Hardway</em>
+						</li>
+
+						<li rel="audio/moldo/black mirrior - sophie simmons.mp3">
+							<strong>3) Black Mirrior </strong>
+							<em>sophie simmons</em>
+						</li>
+
+						<li rel="audio/moldo/congrutulations post malone.mp3">
+							<strong>4) Congrutulations </strong>
+							<em>Post Malone</em>
+						</li>
+
+						<li rel="audio/moldo/feels like yesterday  -mike williams.mp3">
+							<strong>5) Feels Like Yesterday </strong>
+							<em> Mike Williams</em>
+						</li>
+
+						<li rel="audio/moldo/fly with me avici y mat.mp3">
+							<strong>6) Fly With Me </strong>
+							<em>Avici y Martin Garrix</em>
+						</li>
+
+						<li rel="audio/moldo/forever martin garrix y dasko.mp3">
+							<strong>7) Forever </strong>
+							<em>Martin Garrix y Dasko</em>
+						</li>
+
+						<li rel="audio/moldo/game over martin garrix.mp3">
+							<strong>8) Game Over </strong>
+							<em> Martin Garrix</em>
+						</li>
+
+						<li rel="audio/moldo/jamiroquai superfresh  oliver heldens.mp3">
+							<strong>9) Superfresh  </strong>
+							<em>Oliver Heldens</em>
+						</li>
+
+						<li rel="audio/moldo/pizza martin garrix.mp3">
+							<strong>10) Pizza </strong>
+							<em>Martin Garrix</em>
+						</li>
+						<li rel="audio/moldo/King Kong  Oliver Heldens.mp3">
+							<strong>11)King Kong </strong>
+							<em>Oliver Heldens</em>
+						</li>
+						<li rel="audio/moldo/Six Million  Bojac.mp3">
+							<strong>12) Six Million </strong>
+							<em> Bojac</em>
+						</li>
+						<li rel="audio/moldo/Paparazzi Brohug.mp3">
+							<strong>13) Paparazzi </strong>
+							<em>Brohug</em>
+						</li>
+
+
+
+<!--
+
+
+						<li rel="audio/moldo/al-filo-de-la-navaja.mp3">
+							<strong>Al filo de la navaja</strong>
+							<em>Moldo</em>
+						</li>
+
+
+						<li rel="audio/moldo/el-silencio.ogg">
+							<strong>El silencio</strong>
+							<em>Moldo</em>
+						</li>
+						<li rel="audio/moldo/cicatrices.ogg">
+							<strong>Cicatrices</strong>
+							<em>Moldo</em>
+						</li>
+
+-->
+					</ol>
+				</div>
+				<div id="divCreditos">
+					<center>
+					<h1>  <font color="yellow"> T </font><font color="green"> I </font><font color="blue"> N </font><font color="red"> D </font><font color="blue"> E</font><font color="green"> R </font></h1>
+				</center>
+					
+				</div>
+			</div>
+		</div>
+
+
+
+				
+
+			</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+		
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+
+
+
+
+<script type="text/javascript" src="js/ext/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/reproductor.js"></script>
+
+
+
+
+	</body>
+</html>
